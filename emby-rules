@@ -1,0 +1,32 @@
+#! Unlce自用EMBY分流
+#! 公益服线路不能泄露，如果你不小心找到了，请自己用不要传播，公益服且用且珍惜
+#! 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
+#!> ↓↓↓↓↓↓↓↓↓（Emby影视的分流）↓↓↓↓↓↓↓↓↓
+#!Emby-酥糖🍬
+DOMAIN-SUFFIX,st.sakim.org
+
+#!Emby-Yezi(网盘&高码）
+DOMAIN-SUFFIX,bzy.yezi.my
+DOMAIN-SUFFIX,bai.yezi.my
+DOMAIN-SUFFIX,bai1.yezi.my
+DOMAIN-SUFFIX,bai2.yezi.my
+DOMAIN-SUFFIX,bai3.yezi.my
+
+#!Emby-Flarelx（jms机场服）
+DOMAIN-SUFFIX,media.emby.vip
+
+#!Emby-Nebula Media（星云）
+DOMAIN-SUFFIX,emby.nebula-media.org
+
+#!Emby-CC
+DOMAIN-SUFFIX,cc.coemn.com
+DOMAIN-SUFFIX,cc.embycc.link
+
+#!Emby-纸片人
+DOMAIN-SUFFIX,embyplus.org
+
+#!Emby-PiliPili
+DOMAIN-SUFFIX,emby.pilipiliultra.top 
+DOMAIN-SUFFIX,emby.pilipiliultra.com
+DOMAIN-SUFFIX,pilipili.mikuu.link
+DOMAIN-SUFFIX,emby-direct.pilipiliultra.com
