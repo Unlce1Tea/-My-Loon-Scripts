@@ -1,0 +1,42 @@
+#!name = Telegram DC 极速版
+#!desc = 电报数据中心分流 
+#!author = 智化版
+#!icon = 
+#!date = 2025-08-26
+
+[Rule]
+# ======== 核心域名规则 ========
+# iturrit官方域名（强制代理避免DNS污染）
+DOMAIN,api.iturrit.com,PROXY
+DOMAIN-SUFFIX,iturrit.com,PROXY
+
+# Telegram官方及CDN域名
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-KEYWORD,tdesktop,PROXY
+
+# ======== 数据中心智能分流 ========
+# 新加坡DC (优先低延迟)
+IP-ASN,62014,新国节点,no-resolve  # StarHub Singapore
+IP-CIDR,149.154.164.0/22,新国节点,no-resolve  # Telegram新加坡IP段
+
+# 欧盟DC (法兰克福/阿姆斯特丹)
+IP-ASN,62041,欧盟节点,no-resolve  # Vodafone GmbH
+IP-ASN,44907,欧盟节点,no-resolve  # Deutsche Telekom
+IP-CIDR,149.154.175.0/24,欧盟节点,no-resolve  # Telegram荷兰IP段
+
+# 美国DC (备用线路)
+IP-ASN,59930,美国节点,no-resolve  # Cogent Communications
+IP-CIDR,91.108.56.0/22,美国节点,no-resolve  # Telegram迈阿密IP段
+
+# ======== 高级优化规则 ========
+# 避免国内DNS污染 (强制走代理解析)
+DNS,api.iturrit.com,PROXY
+DNS,telegram.org,PROXY
+
+# 移动网络优化
+CELLULAR,true,新国节点  # 蜂窝网络默认走新加坡节点
+
+# 最终回退规则
+FINAL,DIRECT
