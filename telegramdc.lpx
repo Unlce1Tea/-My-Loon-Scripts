@@ -16,6 +16,13 @@
 91.108.56.128 = 91.108.56.147,91.108.56.135,91.108.56.130
 91.108.56.156 = 91.108.56.147,91.108.56.135,91.108.56.130
 
+# Telegram跳转客户端
+[argument]
+jump = select,"Swiftgram","Turrit",tag = 指定跳转客户端,desc = 选择跳转到哪个第三方tg
+
+[Script]
+http-response (https:\/\/)?t\.me\/(.+) script-path=https://raw.githubusercontent.com/dcpengx/Loon/main/JavaScript/tg-redirect.js,tag = telegram-redirect,requires-body = false,timeout = 10,binary-body-mode = false,argument = [{jump}],enable=true
+
 [Rule]
 # ======== 核心域名规则 ========
 # iturrit官方域名（强制代理避免DNS污染）
@@ -52,3 +59,6 @@ CELLULAR,true,新国节点  # 蜂窝网络默认走新加坡节点
 
 # 最终回退规则
 FINAL,DIRECT
+
+[MITM]
+hostname=t.me
