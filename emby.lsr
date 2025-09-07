@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,media.emby.vip
 
 #!Emby-Nebula Media（星云）
 DOMAIN-SUFFIX,emby.nebula-media.org
+DOMAIN-SUFFIX,emby-cdn1.nebula-media.org
 
 #!Emby-CC
 DOMAIN-SUFFIX,cc.coemn.com
