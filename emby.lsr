@@ -8,6 +8,9 @@ DOMAIN-SUFFIX,st.sakim.org
 #!Emby-叔服
 DOMAIN-SUFFIX,emby3.mcjoker.xyz
 
+#！Emby-Paul
+DOMAIN-SUFFIX,cf.imetyou
+
 #!Emby-Yezi(网盘&高码）
 DOMAIN-SUFFIX,bzy.yezi.my
 DOMAIN-SUFFIX,bai.yezi.my
@@ -16,19 +19,3 @@ DOMAIN-SUFFIX,bai2.yezi.my
 DOMAIN-SUFFIX,bai3.yezi.my
 DOMAIN-SUFFIX,gm.yezi.my
 
-#!Emby-Flarelx（瓜瓜机场服）
-DOMAIN-SUFFIX,media.emby.vip
-
-#!Emby-Nebula Media（星云）
-DOMAIN-SUFFIX,emby.nebula-media.org
-DOMAIN-SUFFIX,emby-cdn1.nebula-media.org
-
-#!Emby-CC
-DOMAIN-SUFFIX,cc.coemn.com
-DOMAIN-SUFFIX,cc.embycc.link
-
-#!Emby-纸片人
-DOMAIN-SUFFIX,embyplus.org
-
-#!Emby-PiliPili
-DOMAIN-SUFFIX,emby.pilipiliultra.com
