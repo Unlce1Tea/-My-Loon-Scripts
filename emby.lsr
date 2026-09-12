@@ -2,8 +2,7 @@
 #! 公益服线路不能泄露，如果你不小心找到了，请自己用不要传播，公益服且用且珍惜
 #! 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
 #!> ↓↓↓↓↓↓↓↓↓（Emby影视的分流）↓↓↓↓↓↓↓↓↓
-#!Emby-酥糖🍬
-DOMAIN-SUFFIX,st.sakim.org
+大杂烩
 
 #!Emby-叔服
 DOMAIN-SUFFIX,emby3.mcjoker.xyz
@@ -19,9 +18,9 @@ DOMAIN-SUFFIX,bai2.yezi.my
 DOMAIN-SUFFIX,bai3.yezi.my
 DOMAIN-SUFFIX,gm.yezi.my
 
-DOMAIN,cf.imetyou.top
-DOMAIN,api.trakt.tv
-DOMAIN,ys.lyezi.cc
-DOMAIN,emby.dnscf.dpdns.org
-DOMAIN,emby.aixj.de
-DOMAIN,wp.lyezi.cc
+DOMAIN-SUFFIX,cf.imetyou.top
+DOMAIN-SUFFIX,api.trakt.tv
+DOMAIN-SUFFIX,ys.lyezi.cc
+DOMAIN-SUFFIX,emby.dnscf.dpdns.org
+DOMAIN-SUFFIX,emby.aixj.de
+DOMAIN-SUFFIX,wp.lyezi.cc
