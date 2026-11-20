@@ -1,0 +1,29 @@
+# Emby 分流规则 - Egern
+# 更新: 2026-11-20
+# 策略组: Emby
+# 用法: 上传到 GitHub 后, 在 Egern 里添加远程规则集, 填 GitHub Raw 链接
+# 例如: https://raw.githubusercontent.com/你的用户名/你的仓库/main/Emby_Egern.list
+
+# 叶子服
+DOMAIN-SUFFIX,wp.lyezi.cc,Emby
+DOMAIN-SUFFIX,yp.lyezi.cc,Emby
+DOMAIN-SUFFIX,bzy.lyezi.xyz,Emby
+DOMAIN-SUFFIX,kuai1.lyezi.xyz,Emby
+DOMAIN-SUFFIX,kuai2.lyezi.xyz,Emby
+DOMAIN-SUFFIX,kuai3.lyezi.xyz,Emby
+DOMAIN-SUFFIX,cs.lyezi.xyz,Emby
+DOMAIN-SUFFIX,csx.lyezi.xyz,Emby
+DOMAIN-SUFFIX,ys.lyezi.cc,Emby
+
+# 酥糖
+DOMAIN-SUFFIX,st.sttss.de,Emby
+DOMAIN-SUFFIX,stsr.sttss.de,Emby
+DOMAIN-SUFFIX,st2.sttss.de,Emby
+DOMAIN-SUFFIX,lax2.sttss.de,Emby
+DOMAIN-SUFFIX,mt.sttss.de,Emby
+
+# 叔服
+DOMAIN-SUFFIX,emby.shufu.club,Emby
+
+# Paul 服
+DOMAIN-SUFFIX,cf.imetyou.top,Emby
