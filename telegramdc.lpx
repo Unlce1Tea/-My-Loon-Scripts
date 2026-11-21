@@ -1,7 +1,7 @@
 #!name = Telegram DC 极速版
 #!desc = 电报数据中心分流
 #!author = 小合集
-#!date = 2025-09-06
+#!date = 2025-11-26 10:00:05
 
 # Telegram跳转客户端
 [argument]
@@ -15,12 +15,15 @@ http-response (https:\/\/)?t\.me\/(.+) script-path=https://raw.githubusercontent
 # iturrit官方域名（强制代理避免DNS污染）
 DOMAIN,api.iturrit.com,PROXY
 DOMAIN-SUFFIX,iturrit.com,PROXY
+DOMAIN,api.swiftgram.app,PROXY
+DOMAIN-SUFFIX,swiftgram.app,PROXY
 
 # Telegram官方及CDN域名
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,telegram.me,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
 DOMAIN-KEYWORD,tdesktop,PROXY
+DOMAIN,api.swiftgram.app,PROXY
 
 # ======== 数据中心智能分流 ========
 # 新加坡DC (优先低延迟)
@@ -40,7 +43,7 @@ IP-CIDR,91.108.56.0/22,美国节点,no-resolve  # Telegram迈阿密IP段
 # 避免国内DNS污染 (强制走代理解析)
 DNS,api.iturrit.com,PROXY
 DNS,telegram.org,PROXY
-
+DNS,api.swiftgram.app,PROXY
 # 移动网络优化
 CELLULAR,true,新国节点  # 蜂窝网络默认走新加坡节点
 
